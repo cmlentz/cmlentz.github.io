@@ -1,2 +1,2 @@
 # myGitHubPage
-for my project
+create starter files
