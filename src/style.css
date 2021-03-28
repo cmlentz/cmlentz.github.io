@@ -37,10 +37,25 @@ img {
 .card {
   place-self: center;
   width: 600px;
-  height: 300px;
+  height: 250px;
   border: 1px solid black;
   border-radius: 5%;
   text-align: center;
   box-shadow: 1px 5px 5px;
   font-size: large;
+}
+
+table, tr, td {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+a {
+  color: white;
 }
