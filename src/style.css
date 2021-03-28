@@ -5,3 +5,32 @@ body {
   background-color: lightsteelblue;
   color: white;
 }
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 10px red;
+  font-size: 80px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-rows: 1fr; 
+  grid-template-columns: 1fr;
+  grid-row-gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card {
+  place-self: center;
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 5%;
+  text-align: center;
+  box-shadow: 1px 5px 5px;
+  font-size: large;
+}
